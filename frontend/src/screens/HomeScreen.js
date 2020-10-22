@@ -14,7 +14,8 @@ const HomeScreen = () => {
     };
 
     fetchProducts();
-  }, [test]);
+  }, []);
+  
   return (
     <>
       <h1>Latest Products</h1>
